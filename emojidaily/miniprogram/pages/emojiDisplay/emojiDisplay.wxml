@@ -1,0 +1,15 @@
+<button bindtap="getEmoji1">获取小表情1</button>
+<view wx:for="{{charList}}">
+  <view>{{item}}</view>
+</view>
+
+<button bindtap="getEmoji2">获取小表情2</button>
+
+
+<view wx:for="{{emojiList2}}">
+  <view>{{item.char}}</view>
+</view>
+  
+   
+
+  
